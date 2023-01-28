@@ -2,23 +2,23 @@
 
 
 :root {
-    --primary-color: #584d3d  ;
-    --secondary-color: #415d43 ;
+    --primary-color: #584d3d;
+    --secondary-color: #415d43;
     --accent1-color: #bad9b5;
     --accent2-color: #D4AC0D;
   
     --heading-font: "IM Fell French Canon";
     --paragraph-font: Lato, Helvetica, sans-serif;
   
-    --headline-color-on-white: #396E94;
-    --headline-color-on-color: white;
-    --paragraph-color-on-white: #396E94;
-    --paragraph-color-on-color: white;
-    --paragraph-background-color: #396E94  ;
-    --nav-link-color: #396E94;
+    --headline-color-on-white: #415d43;
+    --headline-color-on-color: #bad9b5;
+    --paragraph-color-on-white: #415d43;
+    --paragraph-color-on-color: #bad9b5;
+    --paragraph-background-color: #415d43  ;
+    --nav-link-color: #415d43;
     --nav-background-color: #D4AC0D;
-    --nav-hover-link-color: white;
-    --nav-hover-background-color: #396E94;
+    --nav-hover-link-color: #bad9b5;
+    --nav-hover-background-color: #415d43;
   }
 
 
@@ -67,7 +67,7 @@ body {
     text-align: center;
   }
   .colors th {
-    background-color: #999;
+    background-color: #584d3d ;
   }
   .colors td{
     width: 25%;
@@ -128,7 +128,7 @@ body {
   }
   .sm-home {
     grid-area: home;
-    background-color: #ccc;
+    background-color: #584d3d ;
     line-height: 3em;
   }
   .top {
