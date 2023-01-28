@@ -46,6 +46,15 @@ body {
     margin: 35px 0;
     background: var(--accent1-color);
   }
+  head {
+    padding: 1em;
+    text-align: center;
+    color: var(--headline-color-on-color);
+    background-color: var(--paragraph-background-color);
+  }
+  head > h1, header > h4 {
+    color: var(--headline-color-on-color);
+  }
   header {
     padding: 1em;
     text-align: center;
@@ -144,4 +153,26 @@ body {
     grid-area: right;
     border-top: 1px solid;
     border-right: 1px solid;
+  }
+  footer {
+    background-color: #584d3d;
+    color: #bad9b5;
+    display: grid;
+    grid-template-columns: 1fr 95px;
+    align-items: center;
+  }
+  
+  a {
+    color: #584d3d
+  }
+  
+  /* Class Selectors  ***********/
+  .page {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  
+  .topnavigation {
+    background-color: #fdb321;
+    color: #000000;
   }
