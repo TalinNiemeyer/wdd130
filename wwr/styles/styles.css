@@ -155,16 +155,8 @@ body {
     border-right: 1px solid;
   }
   footer {
-    background-color: #584d3d;
-    color: #bad9b5;
-    display: grid;
-    grid-template-columns: 1fr 95px;
-    align-items: center;
-  }
-  footer p {
-    font-size: 1.2em;
-  }
-
-  footer p a:hover{
-    text-decoration: underline;
+    padding: 1em;
+    text-align: center;
+    color: var(--headline-color-on-color);
+    background-color: var(--paragraph-background-color);
   }
