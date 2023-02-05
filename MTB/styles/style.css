@@ -1,8 +1,8 @@
   .tues-pro {
     display: block;
     margin-left: auto;
-    margin-right: 50px;
-    margin-top: 30px;
+    margin-right: 4%;
+    margin-top: 10%;
     margin-bottom: auto;
     width: 30%;
     align-items: center;
@@ -23,10 +23,10 @@
   body {
     position: fixed;
     background: #333333;
-    width: 1500px;
+    width: 100%;
   }
 
-.loader1 {
+  .loader1 {
     position: absolute;
     top: 0px;
     right: 500px;
@@ -36,21 +36,21 @@
     align-items: center;
     /* justify-content: center; */
     background: #333333;
-    transition: opacity 4s, visibility 4s;
+    transition: opacity 3s, visibility 3s;
     z-index: 1;
-  }
+   }
   
-  .loader1--hidden {
+   .loader1--hidden {
     opacity: 0;
     visibility: hidden;
-  }
+   }
   
-  .loader1::after {
+   .loader1::after {
     z-index: -1;
     content: "";
     position: absolute;
-    bottom: 430px;
-    right: 317px;
+    bottom: 36%;
+    right: 21.5%;
     width: 130px;
     height: 130px;
     border: 15px solid rgba(0, 0, 0);
@@ -58,7 +58,7 @@
     border-radius: 50%;
     animation: loading 0.65s ease infinite;
     align-items: center;
-  }
+   }
   
 
   @keyframes loading {
@@ -70,28 +70,28 @@
     }
   }
 
-.loader2 {
+   .loader2 {
     position: absolute;
     top: 0px;
     right: 500px;
     width: 100vw;
     height: 100vh;
     align-items: center;
-    transition: opacity 4s, visibility 4s;
+    transition: opacity 3s, visibility 3s;
     z-index: 1;
-  }
+   }
   
   .loader2--hidden {
     opacity: 0;
     visibility: hidden;
-  }
+   }
   
-  .loader2::after {
+   .loader2::after {
     z-index: -1;
     content: "";
     position: absolute;
-    bottom: 427px;
-    right: 29px;
+    bottom: 36%;
+    right: 2.4%;
     width: 130px;
     height: 130px;
     border: 15px solid rgba(0, 0, 0);
@@ -99,14 +99,8 @@
     border-radius: 50%;
     animation: loading 0.65s ease infinite;
     align-items: center;
-  }
-  body {
-    max-width: 1500px;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 18px;
-    text-align: center;
-  }
+   }
+
   #hero-img{
     max-width: 1500px;
     margin-left: auto;
