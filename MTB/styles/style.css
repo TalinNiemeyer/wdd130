@@ -1,31 +1,66 @@
-.loader {
-    position: fixed;
-    top: 0;
-    left: 0;
+  .tues-pro {
+    display: block;
+    margin-left: auto;
+    margin-right: 50px;
+    margin-top: 30px;
+    margin-bottom: auto;
+    width: 30%;
+    align-items: center;
+  }
+
+
+
+
+@keyframes loading {
+    from {
+      transform: rotate(0turn);
+    }
+    to {
+      transform: rotate(1turn);
+    }
+  }
+
+  body {
+    position: relative;
+    background: #333333;
+    width: 200vw;
+  }
+
+.loader1 {
+    position: absolute;
+    top: 0px;
+    right: 500px;
     width: 100vw;
     height: 100vh;
-    display: flex;
+    /* display: flex; */
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
     background: #333333;
-    transition: opacity 0.75s, visibility 0.75s;
+    transition: opacity 4s, visibility 4s;
+    z-index: 1;
   }
   
-  .loader--hidden {
+  .loader1--hidden {
     opacity: 0;
     visibility: hidden;
   }
   
-  .loader::after {
+  .loader1::after {
+    z-index: -1;
     content: "";
-    width: 75px;
-    height: 75px;
-    border: 15px solid black;
-    border-top-color: #3b3b3b;
+    position: absolute;
+    bottom: 430px;
+    right: 317px;
+    width: 130px;
+    height: 130px;
+    border: 15px solid rgba(0, 0, 0);
+    border-top-color: rgba(29, 29, 29);
     border-radius: 50%;
-    animation: loading 0.75s ease infinite;
+    animation: loading 0.65s ease infinite;
+    align-items: center;
   }
   
+
   @keyframes loading {
     from {
       transform: rotate(0turn);
@@ -34,4 +69,46 @@
       transform: rotate(1turn);
     }
   }
+
+.loader2 {
+    position: absolute;
+    top: 0px;
+    right: 500px;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    transition: opacity 4s, visibility 4s;
+    z-index: 1;
+  }
   
+  .loader2--hidden {
+    opacity: 0;
+    visibility: hidden;
+  }
+  
+  .loader2::after {
+    z-index: -1;
+    content: "";
+    position: absolute;
+    bottom: 427px;
+    right: 29px;
+    width: 130px;
+    height: 130px;
+    border: 15px solid rgba(0, 0, 0);
+    border-top-color: rgba(29, 29, 29);
+    border-radius: 50%;
+    animation: loading 0.65s ease infinite;
+    align-items: center;
+  }
+  body {
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    text-align: center;
+  }
+  #hero-img{
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
