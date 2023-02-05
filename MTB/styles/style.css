@@ -21,9 +21,9 @@
   }
 
   body {
-    position: relative;
+    position: fixed;
     background: #333333;
-    width: 200vw;
+    width: 1500px;
   }
 
 .loader1 {
