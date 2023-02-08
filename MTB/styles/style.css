@@ -10,7 +10,7 @@
 
   body {
     position: fixed;
-    background: #333333;
+    background: #ffffff;
     width: 1500px;
   }
   @keyframes rotation {
@@ -20,6 +20,13 @@
     to {
       transform: rotate(359deg);
     }
+   }
+   .loader1{
+    transition: opacity 0.75s, visibility 0.75s;
+   }
+   .loader1--hidden {
+    opacity: 0;
+    visibility: hidden;
    }
    .back-wheel{
     animation: rotation 1s infinite linear;
@@ -47,14 +54,26 @@
     bottom: -8%;
     right: 33.5%;
    }
+   .loader2{
+    transition: opacity 0.75s, visibility 0.75s;
+   }
+   .loader2--hidden {
+    opacity: 0;
+    visibility: hidden;
+   }
 
 
-
-  /* #hero-img{
+  #hero-img{
     max-width: 100vw;
     margin-left: auto;
     margin-right: auto;
   }
    .hero-msg{
     align-items: 0%;
-   } */
+   }
+
+
+
+
+
+
