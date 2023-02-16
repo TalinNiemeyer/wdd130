@@ -53,6 +53,10 @@ body {
     justify-self: center;
     align-self: center;
   } 
+  #logo{
+    max-height: 120px;
+    max-width: 120px;
+  }
 nav {
     background-color: var(--nav-background-color);
     line-height: 15px;
