@@ -185,10 +185,8 @@ main section img {
     font-size: 1.2em;
     display: flex;
     justify-content: space-around;
-  }
-  nav  {
     list-style-type: none;
-    display: flex;
+    max-height: 120px;
   }
   nav a {
     padding:1em;
@@ -208,7 +206,6 @@ main section img {
   .sitemap {
     display: grid;
     justify-content: center;
-  
     grid-template-columns: repeat(6, 15%);
     grid-template-rows: 3em 1.5em 1.5em 3em;
     grid-template-areas: ". . home home . ."
