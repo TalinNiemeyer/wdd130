@@ -113,22 +113,31 @@ header {
     font-family: var(--heading-font);
     color: var(--headline-color-on-white);
   }
-  .msg{
-margin-bottom: 120px;
-  }
-  .rivers-card{
-    width: 100%;
-  }
-  .camping-card {
-    width: 100%;
-  }
-  .rapids-card {
-    width: 100%;
-  }
   #background {
     width: 100%;
     height: 725px;
     background: var(--accent1-color);
+  }
+  .msg{
+    margin-bottom: 120px;
+  }
+  .home-grid{
+    display: grid;
+  }
+  .rivers-card{
+    width: 100%;
+    display: grid;
+    grid-column: 1/1;
+  }
+  .camping-card {
+    width: 100%;
+    display: grid;
+    grid-column: 2/2;
+  }
+  .rapids-card {
+    width: 100%;
+    display: grid;
+    grid-column: 3/3;
   }
   .mountains {
     width: 100%;
