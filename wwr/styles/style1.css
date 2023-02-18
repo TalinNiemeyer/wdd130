@@ -136,12 +136,12 @@ header {
   }
   .camping-card {
     grid-column: 2 / 3;
-    grid-row: 2 / 3;
+    grid-row: 1 / 2;
   }
   .rapids-card {
 
     grid-column: 3 / 4;
-    grid-row: 3 / 4;
+    grid-row: 1 / 2;
   }
   .mountains {
     width: 100%;
