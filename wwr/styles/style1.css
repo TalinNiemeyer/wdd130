@@ -125,11 +125,18 @@ header {
     display: grid;
   }
   .card-img{
-    float: left;
     width: 33.33%;
     padding: 5px;
   }
-
+  .rivers-card{
+    margin-right: -66.66%;
+  }
+  .camping-card {
+  margin-right: 0%;
+  }
+  .rapids-card {
+   margin-right: 66.66%;
+  }
   .mountains {
     width: 100%;
   }
