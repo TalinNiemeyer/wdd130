@@ -106,7 +106,11 @@ header {
     grid-row: 1/2;
     margin-top: 100px;
   }  
-  h1, h2, h3, h4{
+  h1, h2{
+    font-family: var(--heading-font);
+    color: var(--accent2-color  ); 
+  }
+  h3, h4{
     font-family: var(--heading-font);
     color: var(--headline-color-on-white);
   }
