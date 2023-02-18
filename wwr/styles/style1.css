@@ -127,7 +127,8 @@ header {
     grid-template-columns: 1fr 2fr 1fr;
     grid-auto-rows: minmax(90px, auto);
     grid-gap: 20px;
-    justify-items: center;
+    justify-items: stretch;
+    align-items: stretch;
   }
   .rivers-card{
     grid-column: 1 / 2;
