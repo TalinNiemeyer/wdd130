@@ -112,12 +112,15 @@ header {
   }
   .rivers-card{
     width: 100%;
+    box-shadow: 5px 5px 10px #292929;
   }
   .camping-card {
     width: 100%;
+    box-shadow: 5px 5px 10px #292929;
   }
   .rapids-card {
     width: 100%;
+    box-shadow: 5px 5px 10px #292929;
   }
   #background {
     width: 100%;
