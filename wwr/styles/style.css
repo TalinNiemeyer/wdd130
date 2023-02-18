@@ -137,7 +137,7 @@ main section img {
   .card-img {
     border: 10px solid #584d3d;
     transition: transform .5s;
-    box-shadow: 5px 5px 10px #6f7364;
+    box-shadow: 5px 5px 10px #292929;
   }
     .card-img:hover {
       opacity: .6;
