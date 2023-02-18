@@ -124,24 +124,12 @@ header {
   .home-grid{
     display: grid;
   }
-  .rivers-card{
-    width: 100%;
-    display: grid;
-    height: 200px;
-    width: 100px;
+  .card-img{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
   }
-  .camping-card {
-    width: 100%;
-    display: grid;
-    height: 200px;
-    width: 400px;
-  }
-  .rapids-card {
-    width: 100%;
-    display: grid;
-    height: 200px;
-    width: 700px;
-  }
+
   .mountains {
     width: 100%;
   }
