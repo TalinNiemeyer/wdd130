@@ -121,28 +121,32 @@ header {
   .msg{
     margin-bottom: 120px;
   }
+
   .home-grid{
     display: grid;
-  }
-  .card-img{
-    width: 33.33%;
-    padding: 5px;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-auto-rows: minmax(90px, auto);
+    grid-gap: 20px;
+    justify-items: center;
   }
   .rivers-card{
-    margin-right: -66.66%;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
   }
   .camping-card {
-  margin-right: 0%;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
   }
   .rapids-card {
-   margin-right: 66.66%;
+
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
   }
   .mountains {
     width: 100%;
   }
   .msg {
     width: 100%;
-    box-shadow: 5px 5px 10px #6f7364;
   }
   footer {
     color: var(--nav-hover-link-color);
