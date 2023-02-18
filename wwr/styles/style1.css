@@ -114,6 +114,10 @@ header {
     font-family: var(--heading-font);
     color: var(--headline-color-on-white);
   }
+  .msg{
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
   .rivers-card{
     width: 100%;
   }
