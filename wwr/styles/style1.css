@@ -108,7 +108,7 @@ header {
   }  
   h1, h2{
     font-family: var(--heading-font);
-    color: var(--accent2-color  ); 
+    color: var(--accent2-color); 
   }
   h3, h4{
     font-family: var(--heading-font);
