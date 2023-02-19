@@ -128,13 +128,13 @@ header {
     grid-gap: 20px;
   }
   .rivers-card{
-    width: 33.33%;
+    width: 100px;
   }
   .camping-card{
-    width: 33.33%;
+    width: 100px;
   }
   .rapids-card{
-    width: 33.33%;
+    width: 100px;
   }
   .mountains {
     width: 100%;
