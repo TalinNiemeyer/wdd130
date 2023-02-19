@@ -120,7 +120,7 @@ header {
     background: var(--accent1-color);
   }
   .msg{
-    margin-bottom: 120px;
+    margin-bottom: 0%;
   }
 
   .home-grid{
