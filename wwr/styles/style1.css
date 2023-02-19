@@ -92,15 +92,16 @@ header {
   }  
   #hero {
     display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
-    margin-top: -100px; 
+    grid-template-columns: 1fr 2fr 1fr;
+     
   }  
   #hero-box {
     width: 100%;
     z-index: -1;
   }   
   #hero-msg{
-    /* text-align: center; */
+    
+    text-align: center;
     grid-column: 2/3;
     grid-row: 1/2;
     margin-top: 100px;
@@ -128,13 +129,13 @@ header {
     grid-gap: 20px;
   }
   .rivers-card{
-    width: 100px;
+    width: 100%
   }
   .camping-card{
-    width: 100px;
+    width: 100%;
   }
   .rapids-card{
-    width: 100px;
+    width: 100%;
   }
   .mountains {
     width: 100%;
