@@ -127,7 +127,15 @@ header {
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 20px;
   }
-
+  .rivers-card{
+    width: 33.33%;
+  }
+  .camping-card{
+    width: 33.33%;
+  }
+  .rapids-card{
+    width: 33.33%;
+  }
   .mountains {
     width: 100%;
   }
