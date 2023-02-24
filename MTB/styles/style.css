@@ -62,12 +62,15 @@
     visibility: hidden;
    }
 
-   /* .mud{
-    z-index: -2;
-    rotate: 270;
-    bottom: -7.8%;
-    right: 52.4%;
-   } */
+   .hero {
+    display: block;
+    margin: 15px auto;
+    width: 90%;
+    padding: 10px;
+    border: 1px solid black;
+    color: #000000;
+    background: #ffffff;
+  }
 
   #hero-img{
     max-width: 100vw;
