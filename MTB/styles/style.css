@@ -64,7 +64,7 @@
     visibility: hidden;
    }
 
-   .hero {
+   /* .hero {
     display: block;
     margin: 15px auto;
     width: 90%;
@@ -72,7 +72,7 @@
     border: 1px solid black;
     color: #000000;
     background: #ffffff;
-  }
+  } */
 
   #hero-img{
     max-width: 100vw;
@@ -80,9 +80,9 @@
     margin-right: auto;
   }
 
-   .hero {
+   /* .hero {
     display: none;
-  }
+  } */
 
 
 
