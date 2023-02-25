@@ -4,7 +4,7 @@
     margin-right: 35%;
     margin-top: 10%;
     margin-bottom: auto;
-    width: 30%;
+    width: 30%; 
     align-items: center;
   }
 
@@ -29,6 +29,7 @@
     visibility: hidden;
    }
    .back-wheel{
+    display: block;
     animation: rotation 1s infinite linear;
     z-index: -1;
     content: "";
@@ -47,6 +48,7 @@
     }
    }
    .front-wheel{
+    display: block;
     animation: rotation 1s infinite linear;
     z-index: -1;
     content: "";
@@ -77,12 +79,10 @@
     margin-left: auto;
     margin-right: auto;
   }
-   .hero-msg{
-    align-items: 0%;
-   }
 
-
-
+   .hero {
+    display: none;
+  }
 
 
 

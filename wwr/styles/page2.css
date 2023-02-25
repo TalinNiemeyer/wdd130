@@ -1,0 +1,408 @@
+#nav{
+    position: absolute; 
+    top: 34px; 
+    left: 115px; 
+    width: 1210px; 
+    height: 164px; 
+    z-index: 4; 
+    pointer-events: auto; 
+    opacity: 1;
+    border-color: rgb(187, 187, 187); 
+    border-width: 1px; 
+    border-style: solid; 
+    border-radius: 4px; 
+    font-size: 14px; 
+    line-height: 20px; 
+    padding: 0px; 
+    font-weight: normal; 
+    font-style: normal; 
+    text-decoration: none; 
+    display: flex; 
+    color: rgb(16, 16, 16); 
+    align-items: center; 
+    text-align: center; 
+    justify-content: center; 
+    background: rgb(255, 255, 255);
+}
+#icon{
+    position: absolute; 
+    top: 39px; 
+    left: 120px; 
+    width: 154px; 
+    height: 154px; 
+    z-index: 22; 
+    pointer-events: auto; 
+    opacity: 1;
+}
+ .icon1{
+    top: 0px; 
+    left: 0px; 
+    width: 154px; 
+    height: 154px; 
+    overflow: hidden; 
+    border-radius: 0px; 
+    box-shadow: none;
+ }
+#Huck-Valley{
+    position: absolute; 
+    top: 66px; 
+    left: 431px; 
+    width: 578px; 
+    height: 100px; 
+    z-index: 23; 
+    pointer-events: auto; 
+    opacity: 1;
+    border-color: rgb(187, 187, 187); 
+    border-width: 1px; 
+    border-style: solid; 
+    font-size: 14px; 
+    line-height: 20px; 
+    font-weight: normal; 
+    font-style: normal; 
+    display: flex; 
+    color: rgb(16, 16, 16); 
+    text-align: left; 
+    background: rgb(255, 255, 255); 
+    align-items: center;
+}
+ .rich-text{
+    width: 1208px; 
+    height: 162px; 
+    font-size: 14px; 
+    font-weight: 400; 
+    font-style: normal; 
+    letter-spacing: 0px; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+    box-shadow: none; 
+    color: rgb(16, 16, 16); 
+    line-height: 20px; 
+    padding: 0px; 
+    text-decoration: none; 
+    display: flex; 
+    flex-direction: column; 
+ }
+#menu-space{
+    position: absolute; 
+    top: 34px; 
+    left: 1161px; 
+    width: 164px; 
+    height: 164px; 
+    z-index: 5; 
+    pointer-events: auto; 
+    opacity: 1;
+}
+ .Placeholder{
+    width: 100%; 
+    height: 100%; 
+    box-shadow: none; 
+    z-index: 5; 
+    border-color: rgb(187, 187, 187); 
+    border-width: 1px; 
+    border-style: solid; 
+    font-size: 14px; 
+    line-height: 20px; 
+    padding: 0px; 
+    font-weight: normal; 
+    font-style: normal; 
+    text-decoration: none; 
+    display: flex; 
+    color: rgb(16, 16, 16); 
+    align-items: center; 
+    text-align: center; 
+    background: rgb(255, 255, 255); 
+    overflow: hidden;
+ }
+ .text{
+    z-index: 1; 
+    font-size: 14px; 
+    justify-content: center; 
+    align-items: center; 
+    color: rgb(16, 16, 16); 
+    width: 100%;
+ }
+/* #menu{
+    position: absolute; 
+    top: 83px; 
+    left: 1210px;
+    width: 66px; 
+    height: 66px; 
+    z-index: 8; 
+    pointer-events: auto; 
+    opacity: 1;
+} */
+ .DropDownMenu{
+    width: 100%; 
+    height: 100%; 
+    box-shadow: none; 
+    z-index: 8; 
+    opacity: 1; 
+    border-color: rgb(187, 187, 187); 
+    border-width: 1px; 
+    border-style: solid; 
+    font-size: 14px; 
+    line-height: 20px; 
+    font-weight: normal; 
+    font-style: normal; 
+    display: flex; 
+    color: rgb(16, 16, 16); 
+    text-align: left; 
+    background: rgb(255, 255, 255); 
+    align-items: center;
+ }
+ .drop{
+    justify-content: left;
+ }
+#img1{
+    position: absolute; 
+    top: 400px; 
+    left: 115px; 
+    width: 218px; 
+    height: 178px; 
+    z-index: 10; 
+    pointer-events: auto; 
+    opacity: 1;
+}
+ .Image{
+    width: 100%; 
+    height: 100%; 
+    box-shadow: none; 
+    border-color: rgb(187, 187, 187); 
+    border-width: 0px; 
+    border-style: solid; 
+    background: rgb(232, 232, 232); 
+    border-radius: 0px;
+    display: flex; 
+ }
+ .img{
+    top: 0px; 
+    left: 0px; 
+    width: 218px; 
+    height: 178px; 
+    overflow: hidden; 
+    border-radius: 0px; 
+    box-shadow: none;
+ }
+/* #text1{
+    position: absolute; 
+    top: 400px; 
+    left: 357px; 
+    width: 264px; 
+    height: 124px; 
+    z-index: 15; 
+    pointer-events: auto; 
+    opacity: 1;
+}  */
+#entry1{
+    position: absolute; 
+    top: 442px; 
+    left: 384px; 
+    width: 210px; 
+    height: 40px; 
+    z-index: 6; 
+    pointer-events: auto; 
+    opacity: 1; 
+}
+ .youtube{
+    width: 100%; 
+    height: 100%; 
+    box-shadow: none;
+ }
+#youtube-link-1{
+    position: absolute; 
+    top: 548px; 
+    left: 357px; 
+    width: 30px; 
+    height: 30px; 
+    z-index: 27; 
+    pointer-events: auto; 
+    opacity: 1;
+}
+ .Richtext{
+    width: 100%; 
+    height: 100%; 
+    box-shadow: none;
+ }
+#button1{
+    position: absolute; 
+    top: 548px; 
+    left: 411px; 
+    width: 210px; 
+    height: 30px; 
+    z-index: 14; 
+    pointer-events: auto; 
+    opacity: 1;
+}
+ .Button{
+    width: 100%; 
+    height: 100%; 
+    box-shadow: none; 
+    z-index: 14; 
+    border-color: rgb(187, 187, 187); 
+    border-width: 1px; 
+    border-style: solid; 
+    border-radius: 4px; 
+    font-size: 14px; 
+    line-height: 20px; 
+    padding: 0px; 
+    font-weight: normal; 
+    font-style: normal; 
+    text-decoration: none; 
+    display: flex; 
+    color: rgb(16, 16, 16); 
+    align-items: center; 
+    text-align: center; 
+    justify-content: center; 
+    background: rgb(255, 255, 255);
+ }
+#img2{
+    position: absolute; 
+    top: 608px; 
+    left: 115px; 
+    width: 218px; 
+    height: 178px; 
+    z-index: 12; 
+    pointer-events: auto; 
+    opacity: 1;
+}
+/* #text2{
+    position: absolute; 
+    top: 400px; 
+    left: 357px; 
+    width: 264px; 
+    height: 124px; 
+    z-index: 15; 
+    pointer-events: auto; 
+    opacity: 1;
+} */
+#entry2{
+    position: absolute; 
+    top: 650px; 
+    left: 384px; 
+    width: 210px; 
+    height: 40px; 
+    z-index: 6; 
+    pointer-events: auto; 
+    opacity: 1;
+}
+#button2{
+    position: absolute; 
+    top: 752px; 
+    left: 411px; 
+    width: 210px;
+    height: 30px; 
+    z-index: 17; 
+    pointer-events: auto; 
+    opacity: 1;  
+}
+#youtube-link-2{
+    position: absolute; 
+    top: 756px; 
+    left: 357px; 
+    width: 30px; 
+    height: 30px;
+    z-index: 29; 
+    pointer-events: auto; 
+    opacity: 1;
+}
+#img4{
+    position: absolute; 
+    top: 400px; 
+    left: 1107px; 
+    width: 218px; 
+    height: 178px; 
+    z-index: 11; 
+    pointer-events: auto; 
+    opacity: 1;
+}
+/* #text4{
+    position: absolute; 
+    top: 400px; 
+    left: 819px; 
+    width: 264px; 
+    height: 124px; 
+    z-index: 34; 
+    pointer-events: auto; 
+    opacity: 1;
+} */
+#entry4{
+    position: absolute; 
+    top: 442px; 
+    left: 846px; 
+    width: 210px; 
+    height: 40px; 
+    z-index: 6;
+    pointer-events: auto;
+    opacity: 1;
+}
+#button4{
+    position: absolute; 
+    top: 548px; 
+    left: 819px; 
+    width: 210px; 
+    height: 30px; 
+    z-index: 40; 
+    pointer-events: auto; 
+    opacity: 1;
+}
+#youtube-link-4{
+    position: absolute; 
+    top: 548px; 
+    left: 1053px; 
+    width: 30px; 
+    height: 30px; 
+    z-index: 28; 
+    pointer-events: auto; 
+    opacity: 1;
+}
+#img5{
+    position: absolute; 
+    top: 608px; 
+    left: 1107px; 
+    width: 218px; 
+    height: 178px; 
+    z-index: 13; 
+    pointer-events: auto; 
+    opacity: 1;
+}
+/* #text5{
+    position: absolute; 
+    top: 608px; 
+    left: 819px; 
+    width: 264px; 
+    height: 124px; 
+    z-index: 35; 
+    pointer-events: auto; 
+    opacity: 1;
+} */
+#entry5{
+    position: absolute; 
+    top: 650px; 
+    left: 846px; 
+    width: 210px; 
+    height: 40px; 
+    z-index: 6; 
+    pointer-events: auto; 
+    opacity: 1;
+}
+#button5{
+    position: absolute; 
+    top: 756px; 
+    left: 819px; 
+    width: 210px; 
+    height: 30px; 
+    z-index: 41;
+    pointer-events: auto; 
+    opacity: 1;
+}
+#youtube-link-5{
+    position: absolute; 
+    top: 756px; 
+    left: 1053px; 
+    width: 30px; 
+    height: 30px; 
+    z-index: 30; 
+    pointer-events: auto; 
+    opacity: 1;
+}

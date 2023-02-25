@@ -13,9 +13,12 @@ window.addEventListener("load", () => {
   
     loader2.addEventListener("transitionend", () => {
       document.body.removeChild(loader2);
+
+    document.getElementById('loader').style.display = 'none';
+    
+    document.getElementById('hero').style.display = 'block';
+
     });
-
-
-
   });
   
+
