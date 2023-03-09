@@ -415,7 +415,7 @@ form {
        between the labels and their text fields */
     margin-left: 0.5em;
   }
-  #feedback {
+#feedback {
     background-color: antiquewhite;
     position: absolute;
     top: 0;
@@ -428,4 +428,8 @@ form {
 .moveDown {
     margin-top: 3em;
 }
-                      
+#form{
+    position: absolute;
+    top: 250px;
+    right: 580px;
+}                      
