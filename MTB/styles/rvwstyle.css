@@ -1,70 +1,5 @@
-  .tues-pro {
-    display: block;
-    margin-left: auto;
-    margin-right: 35%;
-    margin-top: 20%;
-    margin-bottom: auto;
-    width: 30%; 
-    align-items: center;
-    z-index: 1;
-  }
-
-
-  @keyframes rotation {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(359deg);
-    }
-   }
-   .loader1{
-    transition: opacity 0.75s, visibility 0.75s;
-   }
-   .loader1--hidden {
-    opacity: 0;
-    visibility: hidden;
-   }
-   .back-wheel{
-    display: block;
-    animation: rotation 1s infinite linear;
-    z-index: -1;
-    content: "";
-    position: absolute;
-    bottom: 20%;
-    right: 52.4%;
-   }
-  
-
-   @keyframes rotation {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(359deg);
-    }
-   }
-   .front-wheel{
-    display: block;
-    animation: rotation 1s infinite linear;
-    z-index: -1;
-    content: "";
-    position: absolute;
-    bottom: 20%;
-    right: 33.5%;
-   }
-   .loader2{
-    transition: opacity 0.75s, visibility 0.75s;
-   }
-   .loader2--hidden {
-    opacity: 0;
-    visibility: hidden;
-   }
-
-  body{
+body{
     background: #ffffff;
-    width: 1500px;
-    height: 1500px;
     
   }
 
@@ -75,20 +10,20 @@
 
   #hero-img{
     position: absolute; 
-    top: 200px; 
+    top: 198px; 
     left: 116px; 
     width: 1210px; 
     height: 200px; 
 
   }
 
-  #hero{
+  #hero-msg{
     position: absolute; 
-    top: 400px; 
-    left: 116px; 
-    width: 1210px; 
+    top: 240px; 
+    left: -270px; 
+    width: 1980px; 
     height: 180px; 
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
   }
     .home-title-1{
       font-size: xx-large;  
@@ -98,39 +33,7 @@
       font-size: x-large; 
       text-align: center;
     }
-    .horizontal-line1{
-      position: absolute;
-      border-bottom: 4px solid rgb(0, 0, 0);
-      width: 1210px;
-      top: 780px;
-      margin: 52px 108px;
-   }
-   .horizontal-line2{
-    position: absolute;
-    border-bottom: 4px solid rgb(0, 0, 0);
-    width: 1210px;
-    top: 620px;
-    margin: 52px 108px;
- }
- .horizontal-line3{
-  position: absolute;
-  border-bottom: 4px solid rgb(0, 0, 0);
-  width: 1210px;
-  top: 495px;
-  margin: 52px 108px;
-}
-.horizontal-line4{
-  position: absolute;
-  border-bottom: 4px solid rgb(0, 0, 0);
-  width: 1210px;
-  top: 400px;
-  margin: 52px 108px;
-}
-
-
-
-
-
+  
 
   #nav{
     position: absolute; 
@@ -219,10 +122,10 @@
  }
 #menu-space{
     position: absolute; 
-    top: 34px; 
-    left: 1161px; 
-    width: 164px; 
-    height: 164px; 
+    top: 40px; 
+    left: 1170px; 
+    width: 150px; 
+    height: 150px; 
     z-index: 5; 
     pointer-events: auto; 
     opacity: 1;
@@ -232,7 +135,7 @@
     height: 100%; 
     box-shadow: none; 
     z-index: 5; 
-    border-color: rgb(187, 187, 187); 
+    border-color: rgb(0, 0, 0); 
     border-width: 1px; 
     border-style: solid; 
     font-size: 14px; 
@@ -247,6 +150,7 @@
     text-align: center; 
     background: rgb(255, 255, 255); 
     overflow: hidden;
+
  }
  .text{
     z-index: 1; 
@@ -288,31 +192,36 @@
  .drop{
     justify-content: left;
  }
+
+
 #img1{
     position: absolute; 
-    top: 900px; 
-    left: 115px; 
-    width: 218px; 
+    top: 500px; 
+    left: 116px; 
+    width: 260px; 
     height: 178px; 
     z-index: 10; 
     pointer-events: auto; 
     opacity: 1;
+    border-color: rgb(0, 0, 0); 
+    border-width: 1px; 
+    border-style: solid; 
 }
  .Image{
     width: 100%; 
     height: 100%; 
     box-shadow: none; 
-    border-color: rgb(187, 187, 187); 
+    border-color: rgb(255, 255, 255); 
     border-width: 0px; 
     border-style: solid; 
-    background: rgb(232, 232, 232); 
+    background: rgb(255, 255, 255); 
     border-radius: 0px;
     display: flex; 
  }
  .img{
     top: 0px; 
     left: 0px; 
-    width: 218px; 
+    width: 260px; 
     height: 178px; 
     overflow: hidden; 
     border-radius: 0px; 
@@ -328,152 +237,241 @@
     pointer-events: auto; 
     opacity: 1;
 }  */
-#entry1{
+#entryh1{
     position: absolute; 
-    top: 892px; 
-    left: 384px; 
-    width: 210px; 
+    top: 490px; 
+    left: 400px; 
+    width: 500px; 
     height: 40px; 
-    z-index: 6; 
     pointer-events: auto; 
     opacity: 1; 
 }
- .youtube{
-    width: 100%; 
-    height: 100%; 
-    box-shadow: none;
- }
-
-
- .Richtext{
-    width: 100%; 
-    height: 100%; 
-    box-shadow: none;
- }
-
- .Button{
-    width: 100%; 
-    height: 100%; 
-    box-shadow: none; 
-    z-index: 14; 
-    border-color: rgb(187, 187, 187); 
-    border-width: 1px; 
-    border-style: solid; 
-    border-radius: 4px; 
-    font-size: 14px; 
-    line-height: 20px; 
-    padding: 0px; 
-    font-weight: normal; 
-    font-style: normal; 
-    text-decoration: none; 
-    display: flex; 
-    color: rgb(16, 16, 16); 
-    align-items: center; 
-    text-align: center; 
-    justify-content: center; 
-    background: rgb(255, 255, 255);
- }
-#img2{
-    position: absolute; 
-    top: 1108px; 
-    left: 115px; 
-    width: 218px; 
-    height: 178px; 
-    z-index: 12; 
-    pointer-events: auto; 
-    opacity: 1;
-}
-/* #text2{
-    position: absolute; 
-    top: 400px; 
-    left: 357px; 
-    width: 264px; 
-    height: 124px; 
-    z-index: 15; 
-    pointer-events: auto; 
-    opacity: 1;
-} */
-#entry2{
-    position: absolute; 
-    top: 1100px; 
-    left: 384px; 
-    width: 210px; 
-    height: 40px; 
-    z-index: 6; 
-    pointer-events: auto; 
-    opacity: 1;
-}
-
-#img4{
-    position: absolute; 
-    top: 900px; 
-    left: 1107px; 
-    width: 218px; 
-    height: 178px; 
-    z-index: 11; 
-    pointer-events: auto; 
-    opacity: 1;
-}
-/* #text4{
-    position: absolute; 
-    top: 400px; 
-    left: 819px; 
-    width: 264px; 
-    height: 124px; 
-    z-index: 34; 
-    pointer-events: auto; 
-    opacity: 1;
-} */
-#entry4{
-    position: absolute; 
-    top: 892px; 
-    left: 846px; 
-    width: 210px; 
-    height: 40px; 
-    z-index: 6;
-    pointer-events: auto;
-    opacity: 1;
-}
-
-#img5{
-    position: absolute; 
-    top: 1108px; 
-    left: 1107px; 
-    width: 218px; 
-    height: 178px; 
-    z-index: 13; 
-    pointer-events: auto; 
-    opacity: 1;
-}
-/* #text5{
-    position: absolute; 
-    top: 608px; 
-    left: 819px; 
-    width: 264px; 
-    height: 124px; 
-    z-index: 35; 
-    pointer-events: auto; 
-    opacity: 1;
-} */
-#entry5{
-    position: absolute; 
-    top: 1100px; 
-    left: 846px; 
-    width: 210px; 
-    height: 40px; 
-    z-index: 6; 
-    pointer-events: auto; 
-    opacity: 1;
-}
 h1{
-    font-size: large;
+    font-size: 20px;
+}
+#entryh2{
+    position: absolute; 
+    top: 30px; 
+    left: 0px; 
+    width: 500px; 
+    height: 40px; 
+    pointer-events: auto; 
+    opacity: 1; 
+}
+#h2{
+    font-size: 30px;
+}
+#entryp1{
+    position: absolute; 
+    top: 90px; 
+    left: 0px; 
+    width: 610px; 
+    height: 40px; 
+    pointer-events: auto; 
+    opacity: 1; 
 }
 p{
-    font-size: small;
+    font-size: 15px;
 }
+ .button{
+    text-decoration: underline;
+    color: blue;
+    top: 0px;
+    left: 50px;
+ }
+
+ .button-1{
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+    top: 0px;
+    left: 50px;
+    font-size: 30px;
+    text-decoration: underline;
+ }
+
+ .horizontal-line1 {
+    border-bottom: 4px solid rgb(0, 0, 0);
+    width: 1210px;
+    margin: 447px 108px;
+  }
+
+
+
+
+
+ #img2{
+    position: absolute; 
+    top: 810px; 
+    left: 116px; 
+    width: 260px; 
+    height: 178px; 
+    z-index: 10; 
+    pointer-events: auto; 
+    opacity: 1;
+    border-color: rgb(0, 0, 0); 
+    border-width: 1px; 
+    border-style: solid; 
+}
+#entryh3{
+    position: absolute; 
+    top: 790px; 
+    left: 400px; 
+    width: 500px; 
+    height: 40px; 
+    pointer-events: auto; 
+    opacity: 1; 
+}
+h3{
+    font-size: 20px;
+}
+#entryh4{
+    position: absolute; 
+    top: 40px; 
+    left: 0px; 
+    width: 500px; 
+    height: 40px; 
+    pointer-events: auto; 
+    opacity: 1; 
+}
+#h4{
+    font-size: 30px;
+}
+#entryp2{
+    position: absolute; 
+    top: 90px; 
+    left: 0px; 
+    width: 610px; 
+    height: 40px; 
+    pointer-events: auto; 
+    opacity: 1; 
+}
+.horizontal-line2 {
+    position: relative;
+    border-bottom: 4px solid rgb(0, 0, 0);
+    width: 1210px;
+    bottom: 500px;
+    margin: 792px 108px;
+}
+
+
+
+
+
+#img3{
+    position: absolute; 
+    top: 1130px; 
+    left: 116px; 
+    width: 260px; 
+    height: 178px; 
+    z-index: 10; 
+    pointer-events: auto; 
+    opacity: 1;
+    border-color: rgb(0, 0, 0); 
+    border-width: 1px; 
+    border-style: solid; 
+}
+#entryh5{
+    position: absolute; 
+    top: 1100px; 
+    left: 400px; 
+    width: 500px; 
+    height: 40px; 
+    pointer-events: auto; 
+    opacity: 1; 
+}
+h5{
+    font-size: 20px;
+}
+#entryh6{
+    position: absolute; 
+    top: 50px; 
+    left: 0px; 
+    width: 500px; 
+    height: 40px; 
+    pointer-events: auto; 
+    opacity: 1; 
+}
+#h6{
+    font-size: 30px;
+}
+#entryp3{
+    position: absolute; 
+    top: 110px; 
+    left: 0px; 
+    width: 610px; 
+    height: 40px; 
+    pointer-events: auto; 
+    opacity: 1; 
+}
+.horizontal-line3 {
+    position: absolute;
+    border-bottom: 4px solid rgb(0, 0, 0);
+    width: 1210px;
+    top: 1000px;
+    margin: 52px 108px;
+ }
+
+
+ #img4{
+    position: absolute; 
+    top: 1450px; 
+    left: 116px; 
+    width: 260px; 
+    height: 178px; 
+    z-index: 10; 
+    pointer-events: auto; 
+    opacity: 1;
+    border-color: rgb(0, 0, 0); 
+    border-width: 1px; 
+    border-style: solid; 
+}
+#entryh7{
+    position: absolute; 
+    top: 1410px; 
+    left: 400px; 
+    width: 500px; 
+    height: 40px; 
+    pointer-events: auto; 
+    opacity: 1; 
+}
+h6{
+    font-size: 20px;
+}
+#entryh8{
+    position: absolute; 
+    top: 70px; 
+    left: 0px; 
+    width: 500px; 
+    height: 40px; 
+    pointer-events: auto; 
+    opacity: 1; 
+}
+#h8{
+    font-size: 30px;
+}
+#entryp4{
+    position: absolute; 
+    top: 130px; 
+    left: 0px; 
+    width: 610px; 
+    height: 40px; 
+    pointer-events: auto; 
+    opacity: 1; 
+}
+.horizontal-line4 {
+    position: absolute;
+    border-bottom: 4px solid rgb(0, 0, 0);
+    width: 1210px;
+    top: 1320px;
+    margin: 52px 108px;
+ }
+
+
+
+
 footer{
     color: #999;
-    margin-top: 1200px;
+    margin-top: 700px;
     left: -116px; 
     width: 1210px; 
     height: 164px; 
@@ -487,7 +485,7 @@ footer{
 
 
     position: absolute; 
-    margin-top: 1200px; 
+    margin-top: -00px; 
     left: 116px; 
     width: 1210px; 
     height: 164px; 
@@ -511,87 +509,3 @@ footer{
     justify-content: center; 
     background: rgb(0, 0, 0);
 } 
-
-form {
-    /* Center the form on the page */
-    margin: 0 auto;
-    width: 400px;
-    /* Form outline */
-    padding: 1em;
-    border: 1px solid #ccc;
-    border-radius: 1em;
-  }
-  
-  ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  form li + li {
-    margin-top: 1em;
-  }
-  
-  label {
-    /* Uniform size & alignment */
-    display: inline-block;
-    width: 90px;
-    text-align: right;
-  }
-  
-  input,
-  textarea {
-    /* To make sure that all text fields have the same font settings
-       By default, textareas have a monospace font */
-    font: 1em sans-serif;
-  
-    /* Uniform text field size */
-    width: 300px;
-    box-sizing: border-box;
-  
-    /* Match form field borders */
-    border: 1px solid #999;
-  }
-  
-  input:focus,
-  textarea:focus {
-    /* Additional highlight for focused elements */
-    border-color: #000;
-  }
-  
-  textarea {
-    /* Align multiline text fields with their labels */
-    vertical-align: top;
-  
-    /* Provide space to type some text */
-    height: 5em;
-  }
-  
-  .button {
-    /* Align buttons with the text fields */
-    padding-left: 90px; /* same size as the label elements */
-  }
-  
-  button {
-    /* This extra margin represent roughly the same space as the space
-       between the labels and their text fields */
-    margin-left: 0.5em;
-  }
-#feedback {
-    background-color: antiquewhite;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    padding: .5em;
-    /* make this element invisible until we are ready for it */
-    display: none;      
-}
-.moveDown {
-    margin-top: 3em;
-}
-#form{
-    position: absolute;
-    top: 250px;
-    right: 580px;
-}                      
