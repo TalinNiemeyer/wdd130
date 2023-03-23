@@ -20,8 +20,8 @@ body{
   #hero-msg{
     position: absolute; 
     top: 240px; 
-    left: -270px; 
-    width: 1980px; 
+    left: 110px; 
+    width: 1210px; 
     height: 180px; 
     color: rgb(255, 255, 255);
   }
@@ -33,7 +33,15 @@ body{
       font-size: x-large; 
       text-align: center;
     }
-  
+    .home-title-3{
+        font-size: large;  
+        text-align: center;
+      }
+      .home-title-4{
+        font-size: large; 
+        text-align: center;
+        width: 1210px;
+      }
 
   #nav{
     position: absolute; 
@@ -120,69 +128,118 @@ body{
     display: flex; 
     flex-direction: column; 
  }
-#menu-space{
+ #menu-space{
     position: absolute; 
-    top: 40px; 
-    left: 1170px; 
-    width: 150px; 
-    height: 150px; 
-    z-index: 5; 
+    top: 34px; 
+    left: 1161px; 
+    width: 164px; 
+    height: 164px; 
+    z-index: 48; 
     pointer-events: auto; 
     opacity: 1;
 }
+
+
+/* .dropbtn {
+  background-color: #000000;
+  color: white;
+  padding: 30px;
+  font-size: 30px;
+  border: none;
+  cursor: pointer;
+}
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #000000;
+} */
+/*  
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+.Placeholder1{
+  width: 100%; 
+  height: 100%; 
+  box-shadow: none; 
+  z-index: 5; 
+  border-color: rgb(0, 0, 0); 
+  border-width: 1px; 
+  border-style: solid; 
+  font-size: 14px; 
+  line-height: 20px; 
+  padding: 0px; 
+  font-weight: normal; 
+  font-style: normal; 
+  text-decoration: none; 
+  display: flex; 
+  color: rgb(16, 16, 16); 
+  align-items: center; 
+  text-align: center; 
+  background: rgb(255, 255, 255); 
+  overflow: hidden;
+} */
+/* Dropdown Button */
 .dropbtn {
-    background-color: #000000;
-    color: white;
-    padding: 30px;
-    font-size: 30px;
-    border: none;
-    cursor: pointer;
-  }
-  .dropbtn:hover, .dropbtn:focus {
-    background-color: #000000;
-  }
-  .dropdown {
-    position: relative;
-    display: inline-block;
-  }
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-  }
-  .dropdown-content a:hover {
-    background-color: #ddd;
-  }
-  .Placeholder1{
-    width: 100%; 
-    height: 100%; 
-    box-shadow: none; 
-    z-index: 5; 
-    border-color: rgb(0, 0, 0); 
-    border-width: 1px; 
-    border-style: solid; 
-    font-size: 14px; 
-    line-height: 20px; 
-    padding: 0px; 
-    font-weight: normal; 
-    font-style: normal; 
-    text-decoration: none; 
-    display: flex; 
-    color: rgb(16, 16, 16); 
-    align-items: center; 
-    text-align: center; 
-    background: rgb(255, 255, 255); 
-    overflow: hidden;
-  }
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  width: 144px;
+  height: 140px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 50;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #252525;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #252525;}
+  
+
  .Placeholder{
     width: 100%; 
     height: 100%; 
@@ -245,11 +302,38 @@ body{
  .drop{
     justify-content: left;
  }
+ .hv-logo{
+    height: 166px;
+    width: 160px;
+ }
+ .logo{
+    width: 260px;
+    height: 178px;
+ }
+ .banner{
+    height: 100px;
+    width: 578px;
+ }
+ #HuckValley{ 
+    position: absolute; 
+    top: 66px; 
+    left: 431px; 
+    width: 578px; 
+    height: 100px; 
+    z-index: 23; 
+    pointer-events: 
+    auto; opacity: 1;
+ }
+ .info{
+    position: absolute;
+    top: 380px;
+    left: 106px;
 
 
+ }
 #img1{
     position: absolute; 
-    top: 500px; 
+    top: 700px; 
     left: 116px; 
     width: 260px; 
     height: 178px; 
@@ -292,7 +376,7 @@ body{
 }  */
 #entryh1{
     position: absolute; 
-    top: 490px; 
+    top: 690px; 
     left: 400px; 
     width: 500px; 
     height: 40px; 
@@ -343,9 +427,11 @@ p{
  }
 
  .horizontal-line1 {
+    position: absolute;
     border-bottom: 4px solid rgb(0, 0, 0);
     width: 1210px;
     margin: 447px 108px;
+    top: 200px;
   }
 
 
@@ -354,7 +440,7 @@ p{
 
  #img2{
     position: absolute; 
-    top: 810px; 
+    top: 1010px; 
     left: 116px; 
     width: 260px; 
     height: 178px; 
@@ -367,7 +453,7 @@ p{
 }
 #entryh3{
     position: absolute; 
-    top: 790px; 
+    top: 990px; 
     left: 400px; 
     width: 500px; 
     height: 40px; 
@@ -399,10 +485,10 @@ h3{
     opacity: 1; 
 }
 .horizontal-line2 {
-    position: relative;
+    position: absolute;
     border-bottom: 4px solid rgb(0, 0, 0);
     width: 1210px;
-    bottom: 500px;
+    top: 150px;
     margin: 792px 108px;
 }
 
@@ -412,7 +498,7 @@ h3{
 
 #img3{
     position: absolute; 
-    top: 1130px; 
+    top: 1330px; 
     left: 116px; 
     width: 260px; 
     height: 178px; 
@@ -425,7 +511,7 @@ h3{
 }
 #entryh5{
     position: absolute; 
-    top: 1100px; 
+    top: 1300px; 
     left: 400px; 
     width: 500px; 
     height: 40px; 
@@ -460,14 +546,14 @@ h5{
     position: absolute;
     border-bottom: 4px solid rgb(0, 0, 0);
     width: 1210px;
-    top: 1000px;
+    top: 1200px;
     margin: 52px 108px;
  }
 
 
  #img4{
     position: absolute; 
-    top: 1450px; 
+    top: 1650px; 
     left: 116px; 
     width: 260px; 
     height: 178px; 
@@ -480,7 +566,7 @@ h5{
 }
 #entryh7{
     position: absolute; 
-    top: 1410px; 
+    top: 1610px; 
     left: 400px; 
     width: 500px; 
     height: 40px; 
@@ -515,7 +601,7 @@ h6{
     position: absolute;
     border-bottom: 4px solid rgb(0, 0, 0);
     width: 1210px;
-    top: 1320px;
+    top: 1520px;
     margin: 52px 108px;
  }
 
@@ -524,8 +610,8 @@ h6{
 
 footer{
     color: #999;
-    margin-top: 700px;
-    left: -116px; 
+    margin-top: 1900px;
+    left: -86px; 
     width: 1210px; 
     height: 164px; 
     padding: 25px 50px;
@@ -538,7 +624,6 @@ footer{
 
 
     position: absolute; 
-    margin-top: -00px; 
     left: 116px; 
     width: 1210px; 
     height: 164px; 
