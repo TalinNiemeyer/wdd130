@@ -1,0 +1,671 @@
+body{
+    background: #ffffff;
+    
+  }
+
+  /* .hidden {
+    visibility: hidden;
+  } */
+
+
+  #hero-img{
+    position: absolute; 
+    top: 198px; 
+    left: 116px; 
+    width: 1210px; 
+    height: 200px; 
+
+  }
+
+  #hero-msg{
+    position: absolute; 
+    top: 240px; 
+    left: 110px; 
+    width: 1210px; 
+    height: 180px; 
+    color: rgb(255, 255, 255);
+  }
+    .home-title-1{
+      font-size: xx-large;  
+      text-align: center;
+    }
+    .home-title-2{
+      font-size: x-large; 
+      text-align: center;
+    }
+    .home-title-3{
+        font-size: large;  
+        text-align: center;
+      }
+      .home-title-4{
+        font-size: large; 
+        text-align: center;
+        width: 1210px;
+      }
+
+  #nav{
+    position: absolute; 
+    top: 34px; 
+    left: 115px; 
+    width: 1210px; 
+    height: 164px; 
+    z-index: 4; 
+    pointer-events: auto; 
+    opacity: 1;
+    border-color: rgb(187, 187, 187); 
+    border-width: 1px; 
+    border-style: solid; 
+    border-radius: 4px; 
+    font-size: 14px; 
+    line-height: 20px; 
+    padding: 0px; 
+    font-weight: normal; 
+    font-style: normal; 
+    text-decoration: none; 
+    display: flex; 
+    color: rgb(16, 16, 16); 
+    align-items: center; 
+    text-align: center; 
+    justify-content: center; 
+    background: rgb(0, 0, 0);
+}
+#icon{
+    position: absolute; 
+    top: 39px; 
+    left: 120px; 
+    width: 154px; 
+    height: 154px; 
+    z-index: 22; 
+    pointer-events: auto; 
+    opacity: 1;
+}
+ .icon1{
+    top: 0px; 
+    left: 0px; 
+    width: 154px; 
+    height: 154px; 
+    overflow: hidden; 
+    border-radius: 0px; 
+    box-shadow: none;
+ }
+#Huck-Valley{
+    position: absolute; 
+    top: 66px; 
+    left: 431px; 
+    width: 578px; 
+    height: 100px; 
+    z-index: 23; 
+    pointer-events: auto; 
+    opacity: 1;
+    border-color: rgb(187, 187, 187); 
+    border-width: 1px; 
+    border-style: solid; 
+    font-size: 14px; 
+    line-height: 20px; 
+    font-weight: normal; 
+    font-style: normal; 
+    display: flex; 
+    color: rgb(16, 16, 16); 
+    text-align: left; 
+    background: rgb(255, 255, 255); 
+    align-items: center;
+}
+ .rich-text{
+    width: 1208px; 
+    height: 162px; 
+    font-size: 14px; 
+    font-weight: 400; 
+    font-style: normal; 
+    letter-spacing: 0px; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+    box-shadow: none; 
+    color: rgb(16, 16, 16); 
+    line-height: 20px; 
+    padding: 0px; 
+    text-decoration: none; 
+    display: flex; 
+    flex-direction: column; 
+ }
+ #menu-space{
+    position: absolute; 
+    top: 34px; 
+    left: 1161px; 
+    width: 164px; 
+    height: 164px; 
+    z-index: 48; 
+    pointer-events: auto; 
+    opacity: 1;
+}
+
+
+/* .dropbtn {
+  background-color: #000000;
+  color: white;
+  padding: 30px;
+  font-size: 30px;
+  border: none;
+  cursor: pointer;
+}
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #000000;
+} */
+/*  
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+.Placeholder1{
+  width: 100%; 
+  height: 100%; 
+  box-shadow: none; 
+  z-index: 5; 
+  border-color: rgb(0, 0, 0); 
+  border-width: 1px; 
+  border-style: solid; 
+  font-size: 14px; 
+  line-height: 20px; 
+  padding: 0px; 
+  font-weight: normal; 
+  font-style: normal; 
+  text-decoration: none; 
+  display: flex; 
+  color: rgb(16, 16, 16); 
+  align-items: center; 
+  text-align: center; 
+  background: rgb(255, 255, 255); 
+  overflow: hidden;
+} */
+/* Dropdown Button */
+.dropbtn {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  width: 144px;
+  height: 140px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 50;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #252525;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #252525;}
+  
+
+ .Placeholder{
+    width: 100%; 
+    height: 100%; 
+    box-shadow: none; 
+    z-index: 5; 
+    border-color: rgb(0, 0, 0); 
+    border-width: 1px; 
+    border-style: solid; 
+    font-size: 14px; 
+    line-height: 20px; 
+    padding: 0px; 
+    font-weight: normal; 
+    font-style: normal; 
+    text-decoration: none; 
+    display: flex; 
+    color: rgb(16, 16, 16); 
+    align-items: center; 
+    text-align: center; 
+    background: rgb(255, 255, 255); 
+    overflow: hidden;
+
+ }
+ .text{
+    z-index: 1; 
+    font-size: 14px; 
+    justify-content: center; 
+    align-items: center; 
+    color: rgb(16, 16, 16); 
+    width: 100%;
+ }
+/* #menu{
+    position: absolute; 
+    top: 83px; 
+    left: 1210px;
+    width: 66px; 
+    height: 66px; 
+    z-index: 8; 
+    pointer-events: auto; 
+    opacity: 1;
+} */
+ .DropDownMenu{
+    width: 100%; 
+    height: 100%; 
+    box-shadow: none; 
+    z-index: 8; 
+    opacity: 1; 
+    border-color: rgb(187, 187, 187); 
+    border-width: 1px; 
+    border-style: solid; 
+    font-size: 14px; 
+    line-height: 20px; 
+    font-weight: normal; 
+    font-style: normal; 
+    display: flex; 
+    color: rgb(16, 16, 16); 
+    text-align: left; 
+    background: rgb(255, 255, 255); 
+    align-items: center;
+ }
+ .drop{
+    justify-content: left;
+ }
+ .hv-logo{
+    height: 166px;
+    width: 160px;
+ }
+ .logo{
+    width: 260px;
+    height: 178px;
+ }
+ .banner{
+    height: 100px;
+    width: 578px;
+ }
+ #HuckValley{ 
+    position: absolute; 
+    top: 66px; 
+    left: 431px; 
+    width: 578px; 
+    height: 100px; 
+    z-index: 23; 
+    pointer-events: 
+    auto; opacity: 1;
+ }
+ .info{
+    position: absolute;
+    top: 380px;
+    left: 106px;
+
+
+ }
+#img1{
+    position: absolute; 
+    top: 700px; 
+    left: 116px; 
+    width: 260px; 
+    height: 178px; 
+    z-index: 10; 
+    pointer-events: auto; 
+    opacity: 1;
+    border-color: rgb(0, 0, 0); 
+    border-width: 1px; 
+    border-style: solid; 
+}
+ .Image{
+    width: 100%; 
+    height: 100%; 
+    box-shadow: none; 
+    border-color: rgb(255, 255, 255); 
+    border-width: 0px; 
+    border-style: solid; 
+    background: rgb(255, 255, 255); 
+    border-radius: 0px;
+    display: flex; 
+ }
+ .img{
+    top: 0px; 
+    left: 0px; 
+    width: 260px; 
+    height: 178px; 
+    overflow: hidden; 
+    border-radius: 0px; 
+    box-shadow: none;
+ }
+/* #text1{
+    position: absolute; 
+    top: 400px; 
+    left: 357px; 
+    width: 264px; 
+    height: 124px; 
+    z-index: 15; 
+    pointer-events: auto; 
+    opacity: 1;
+}  */
+#entryh1{
+    position: absolute; 
+    top: 690px; 
+    left: 400px; 
+    width: 500px; 
+    height: 40px; 
+    pointer-events: auto; 
+    opacity: 1; 
+}
+h1{
+    font-size: 20px;
+}
+#entryh2{
+    position: absolute; 
+    top: 30px; 
+    left: 0px; 
+    width: 500px; 
+    height: 40px; 
+    pointer-events: auto; 
+    opacity: 1; 
+}
+#h2{
+    font-size: 30px;
+}
+#entryp1{
+    position: absolute; 
+    top: 120px; 
+    left: 0px; 
+    width: 610px; 
+    height: 40px; 
+    pointer-events: auto; 
+    opacity: 1; 
+}
+p{
+    font-size: 15px;
+}
+ .button1{
+    position: absolute;
+    text-decoration: underline;
+    color: blue;
+    top: 32px;
+    left: 195px;
+ }
+
+ .button-1{
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+    top: -20px;
+    left: 50px;
+    font-size: 30px;
+    text-decoration: underline;
+ }
+
+ .horizontal-line1 {
+    position: absolute;
+    border-bottom: 4px solid rgb(0, 0, 0);
+    width: 1210px;
+    margin: 447px 108px;
+    top: 200px;
+  }
+
+
+
+
+
+ #img2{
+    position: absolute; 
+    top: 1010px; 
+    left: 116px; 
+    width: 260px; 
+    height: 178px; 
+    z-index: 10; 
+    pointer-events: auto; 
+    opacity: 1;
+    border-color: rgb(0, 0, 0); 
+    border-width: 1px; 
+    border-style: solid; 
+}
+#entryh3{
+    position: absolute; 
+    top: 990px; 
+    left: 400px; 
+    width: 500px; 
+    height: 40px; 
+    pointer-events: auto; 
+    opacity: 1; 
+}
+h3{
+    font-size: 20px;
+}
+#entryh4{
+    position: absolute; 
+    top: 40px; 
+    left: 0px; 
+    width: 500px; 
+    height: 40px; 
+    pointer-events: auto; 
+    opacity: 1; 
+}
+#h4{
+    font-size: 30px;
+}
+#entryp2{
+    position: absolute; 
+    top: 98px; 
+    left: 0px; 
+    width: 610px; 
+    height: 40px; 
+    pointer-events: auto; 
+    opacity: 1; 
+}
+.button2{
+    position: absolute;
+    text-decoration: underline;
+    color: blue;
+    top: 86px;
+    left: 105px;
+ }
+.horizontal-line2 {
+    position: absolute;
+    border-bottom: 4px solid rgb(0, 0, 0);
+    width: 1210px;
+    top: 150px;
+    margin: 792px 108px;
+}
+
+
+
+
+
+#img3{
+    position: absolute; 
+    top: 1330px; 
+    left: 116px; 
+    width: 260px; 
+    height: 178px; 
+    z-index: 10; 
+    pointer-events: auto; 
+    opacity: 1;
+    border-color: rgb(0, 0, 0); 
+    border-width: 1px; 
+    border-style: solid; 
+}
+#entryh5{
+    position: absolute; 
+    top: 1300px; 
+    left: 400px; 
+    width: 500px; 
+    height: 40px; 
+    pointer-events: auto; 
+    opacity: 1; 
+}
+h5{
+    font-size: 20px;
+}
+#entryh6{
+    position: absolute; 
+    top: 50px; 
+    left: 0px; 
+    width: 500px; 
+    height: 40px; 
+    pointer-events: auto; 
+    opacity: 1; 
+}
+#h6{
+    font-size: 30px;
+}
+#entryp3{
+    position: absolute; 
+    top: 140px; 
+    left: 0px; 
+    width: 610px; 
+    height: 40px; 
+    pointer-events: auto; 
+    opacity: 1; 
+}
+.button3{
+    position: absolute;
+    text-decoration: underline;
+    color: blue;
+    top: 51px;
+    left: 80px;
+ }
+.horizontal-line3 {
+    position: absolute;
+    border-bottom: 4px solid rgb(0, 0, 0);
+    width: 1210px;
+    top: 1200px;
+    margin: 52px 108px;
+ }
+
+
+ #img4{
+    position: absolute; 
+    top: 1650px; 
+    left: 116px; 
+    width: 260px; 
+    height: 178px; 
+    z-index: 10; 
+    pointer-events: auto; 
+    opacity: 1;
+    border-color: rgb(0, 0, 0); 
+    border-width: 1px; 
+    border-style: solid; 
+}
+#entryh7{
+    position: absolute; 
+    top: 1610px; 
+    left: 400px; 
+    width: 500px; 
+    height: 40px; 
+    pointer-events: auto; 
+    opacity: 1; 
+}
+h6{
+    font-size: 20px;
+}
+#entryh8{
+    position: absolute; 
+    top: 70px; 
+    left: 0px; 
+    width: 500px; 
+    height: 40px; 
+    pointer-events: auto; 
+    opacity: 1; 
+}
+#h8{
+    font-size: 30px;
+}
+#entryp4{
+    position: absolute; 
+    top: 155px; 
+    left: 0px; 
+    width: 610px; 
+    height: 40px; 
+    pointer-events: auto; 
+    opacity: 1; 
+}
+.button4{
+    position: absolute;
+    text-decoration: underline;
+    color: blue;
+    top: 51px;
+    left: 125px;
+ }
+.horizontal-line4 {
+    position: absolute;
+    border-bottom: 4px solid rgb(0, 0, 0);
+    width: 1210px;
+    top: 1520px;
+    margin: 52px 108px;
+ }
+
+
+
+
+footer{
+    color: #999;
+    margin-top: 1900px;
+    left: -86px; 
+    width: 1210px; 
+    height: 164px; 
+    padding: 25px 50px;
+    text-align: center;
+    text-decoration: underline;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+    position: absolute; 
+    left: 116px; 
+    width: 1210px; 
+    height: 164px; 
+    z-index: 4; 
+    pointer-events: auto; 
+    opacity: 1;
+    border-color: rgb(255, 255, 255); 
+    border-width: 1px; 
+    border-style: solid; 
+    border-radius: 4px; 
+    font-size: 14px; 
+    line-height: 20px; 
+    padding: 0px; 
+    font-weight: normal; 
+    font-style: normal; 
+    text-decoration: none; 
+    display: flex; 
+    color: #999; 
+    align-items: center; 
+    text-align: center; 
+    justify-content: center; 
+    background: rgb(0, 0, 0);
+} 
