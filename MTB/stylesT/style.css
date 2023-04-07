@@ -1,0 +1,65 @@
+#image-container {
+    display: block;
+    position: absolute;
+    right: 33%;
+    top: 20%;
+    width: 30%; 
+    align-items: center;
+    z-index: 1;
+  }
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+   }
+   .loader1{
+    transition: opacity 0.75s, visibility 0.75s;
+   }
+   .loader1--hidden {
+    opacity: 0;
+    visibility: hidden;
+   }
+   .back-wheel{
+    display: block;
+    animation: rotation 1s infinite linear;
+    z-index: -1;
+    content: "";
+    position: absolute;
+    bottom: 44%;
+    right: 51%;
+   }
+
+   @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+   }
+   .loader2{
+    transition: opacity 0.75s, visibility 0.75s;
+   }
+   .loader2--hidden {
+    opacity: 0;
+    visibility: hidden;
+   }
+   .front-wheel{
+    display: block;
+    animation: rotation 1s infinite linear;
+    z-index: -1;
+    content: "";
+    position: absolute;
+    bottom: 44%;
+    right: 33%;
+   }
+
+  body{
+    background: #ffffff;
+    width: 1500px;
+    height: 1500px;
+    
+  }  
