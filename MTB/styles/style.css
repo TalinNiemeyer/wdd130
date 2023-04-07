@@ -3,7 +3,10 @@
  h1, p{
   font: sans-serif;
  }
-
+ .page {
+  max-width: 500px;
+  margin: auto;
+}
 .tues-pro {
     display: block;
     margin-left: auto;
