@@ -440,8 +440,8 @@ p{
     position: absolute;
     border-bottom: 4px solid rgb(0, 0, 0);
     width: 1210px;
-    margin: 447px 108px;
-    top: 200px;
+    margin: 647px 0px 0px -390px;
+    
   }
 
 
@@ -506,7 +506,7 @@ h3{
     border-bottom: 4px solid rgb(0, 0, 0);
     width: 1210px;
     top: 150px;
-    margin: 792px 108px;
+    margin: 792px 0px 0px -390px;
 }
 
 
@@ -571,7 +571,7 @@ h5{
     border-bottom: 4px solid rgb(0, 0, 0);
     width: 1210px;
     top: 1200px;
-    margin: 52px 108px;
+    margin: 52px 0px 0px -390px;
  }
 
 
@@ -633,7 +633,7 @@ h6{
     border-bottom: 4px solid rgb(0, 0, 0);
     width: 1210px;
     top: 1520px;
-    margin: 52px 108px;
+    margin: 52px 0px 0px -390px;
  }
 
 

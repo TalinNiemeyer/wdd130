@@ -130,34 +130,8 @@
       border-bottom: 4px solid rgb(0, 0, 0);
       width: 1210px;
       top: 780px;
-      margin: 52px 108px;
+      margin: 52px 0px 0px -390px;
    }
-   .horizontal-line2{
-    position: absolute;
-    border-bottom: 4px solid rgb(0, 0, 0);
-    width: 1210px;
-    top: 620px;
-    margin: 52px 108px;
- }
- .horizontal-line3{
-  position: absolute;
-  border-bottom: 4px solid rgb(0, 0, 0);
-  width: 1210px;
-  top: 495px;
-  margin: 52px 108px;
-}
-.horizontal-line4{
-  position: absolute;
-  border-bottom: 4px solid rgb(0, 0, 0);
-  width: 1210px;
-  top: 400px;
-  margin: 52px 108px;
-}
-
-
-
-
-
 
   #nav{
     position: absolute; 
